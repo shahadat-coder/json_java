@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/LayAll"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+   >
+
+
+
+ <ImageView
+     android:id="@+id/ImageShow"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:scaleType="centerCrop"
+     android:src="@drawable/empty"
+     />
+
+        <TextView
+            android:id="@+id/Rat"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/ImageShow"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/singecolor_button"
+            android:gravity="center"
+            android:text=""
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageShow"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:textColor="#A63E3E3D"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cat"
+            android:text=""
+            android:textColor="#F8A52B"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Price"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Discount"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Rat"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/orange_button"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="8dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
